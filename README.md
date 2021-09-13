@@ -44,23 +44,24 @@ This project was partially supported by the [AI4D language dataset fellowship](h
 
 If you use this dataset, please cite this paper
 ```
-@article{DBLP:journals/corr/abs-2108-08614,
-  author    = {Soumajit Pramanik and
-               Jesujoba Alabi and
-               Rishiraj Saha Roy and
-               Gerhard Weikum},
-  title     = {{UNIQORN:} Unified Question Answering over {RDF} Knowledge Graphs
-               and Natural Language Text},
-  journal   = {CoRR},
-  volume    = {abs/2108.08614},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2108.08614},
-  eprinttype = {arXiv},
-  eprint    = {2108.08614},
-  timestamp = {Mon, 23 Aug 2021 14:07:13 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-08614.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{adelani-etal-2021-effect,
+    title = "The Effect of Domain and Diacritics in {Y}oruba{--}{E}nglish Neural Machine Translation",
+    author = "Adelani, David  and
+      Ruiter, Dana  and
+      Alabi, Jesujoba  and
+      Adebonojo, Damilola  and
+      Ayeni, Adesina  and
+      Adeyemi, Mofe  and
+      Awokoya, Ayodele Esther  and
+      Espa{\~n}a-Bonet, Cristina",
+    booktitle = "Proceedings of the 18th Biennial Machine Translation Summit (Volume 1: Research Track)",
+    month = aug,
+    year = "2021",
+    address = "Virtual",
+    publisher = "Association for Machine Translation in the Americas",
+    url = "https://aclanthology.org/2021.mtsummit-research.6",
+    pages = "61--75",
+    abstract = "Massively multilingual machine translation (MT) has shown impressive capabilities and including zero and few-shot translation between low-resource language pairs. However and these models are often evaluated on high-resource languages with the assumption that they generalize to low-resource ones. The difficulty of evaluating MT models on low-resource pairs is often due to lack of standardized evaluation datasets. In this paper and we present MENYO-20k and the first multi-domain parallel corpus with a especially curated orthography for Yoruba{--}English with standardized train-test splits for benchmarking. We provide several neural MT benchmarks and compare them to the performance of popular pre-trained (massively multilingual) MT models both for the heterogeneous test set and its subdomains. Since these pre-trained models use huge amounts of data with uncertain quality and we also analyze the effect of diacritics and a major characteristic of Yoruba and in the training data. We investigate how and when this training condition affects the final quality of a translation and its understandability.Our models outperform massively multilingual models such as Google ($+8.7$ BLEU) and Facebook M2M ($+9.1$) when translating to Yoruba and setting a high quality benchmark for future research.",
 }
-
 
 ```
