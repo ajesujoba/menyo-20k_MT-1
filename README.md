@@ -44,11 +44,23 @@ This project was partially supported by the [AI4D language dataset fellowship](h
 
 If you use this dataset, please cite this paper
 ```
-@inproceedings{adelani_menyo20k,
-    author = {Adelani, David and Ruiter, Dana and Alabi, Jesujoba and Adebonojo, Damilola and Ayeni, Adesina and Adeyemi, Mofe and Awokoya, Ayodele and España-Bonet, Cristina},
-    title = {The Effect of Domain and Diacritics in Yoruba--English Neural Machine Translation},
-    booktitle = {Proceedings of the 18th Biennial Machine Translation Summit. Machine Translation Summit (MT Summit-2021), located at Conference of the Association for Machine Translation in the Americas, August 16-20, Orlando, Florida, United States},
-    year = {2021},
-    publisher = {...}
+@article{DBLP:journals/corr/abs-2108-08614,
+  author    = {Soumajit Pramanik and
+               Jesujoba Alabi and
+               Rishiraj Saha Roy and
+               Gerhard Weikum},
+  title     = {{UNIQORN:} Unified Question Answering over {RDF} Knowledge Graphs
+               and Natural Language Text},
+  journal   = {CoRR},
+  volume    = {abs/2108.08614},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2108.08614},
+  eprinttype = {arXiv},
+  eprint    = {2108.08614},
+  timestamp = {Mon, 23 Aug 2021 14:07:13 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-08614.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
+
 ```
